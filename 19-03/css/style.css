@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.navegacao {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.navegacao__menu {
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao__menu li {
+    color: rgb(150, 23, 209);
+    display: inline-flex;
+    margin: 0 0px                                                                                                                                               0 10px;
+}
+
+.navegacao__logo{
+    width: 230px;
+}
+
+.conteudo {
+    font-family: 'Montserrat', sans-serif;
+}
+.conteudo__container {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo__foto {
+    height: 150px;
+    border-radius: 100%;
+}
+
+.conteudo__nome {
+    font-weight: bold;
+    
+}
+
+.conteudo__artigo {
+    width: 500px;
+    
+}
+
+
+
+
+
+
