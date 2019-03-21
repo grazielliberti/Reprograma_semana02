@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+
+</head>
+
+<body>
+    <h1>Preencha Aqui!</h1>
+    <section>
+        <form action="#" method="GET">
+            <div>
+                <label>Seu Nome:</label>
+                <input name="nome-do-usuario" type="text" placeholder="Digite seu Nome Completo">
+            </div>
+
+            <div>
+                <label>Sua Senha:</label>
+                <input name="senha-do-usuario" type="password" placeholder="Digite sua Senha">
+            </div>
+
+            <div>
+                <label>Seu Email:</label>
+                <input name="email-do-usuario" type="email" placeholder="Digite Seu E-mail">
+            </div>
+
+            <div>
+                <label for="idade-da-pessoa">Sua idade : </label>
+                <input type="number" name="idade-da-pessoa">
+            </div>
+
+            <div>
+                <label for="usuaria-talentosa"></label>Declaro que sou muito talentosa.
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+
+            <div>
+                <label>Selecione sua Profissão</label>
+
+                <input type="radio" name="Profissao" value="programadora"><span>Programadora</span>
+
+                <input type="radio" name="Profissao" value="Designer"><span>Designer</span>
+
+                <input type="radio" name="Profissao" value="Arquiteta"><span>Arquitetaa</span>
+
+            </div>
+
+            <div>
+                <label for="interesse">Áreas de interesse</label>
+
+                <input type="checkbox" name="interesse" value="tecnologia"><span>Tecnologia</span>
+
+                <input type="checkbox" name="interesse" value="arquitetura"><span>Arquitetura</span>
+
+                <input type="checkbox" name="interesse" value="literatura"><span>Literatura</span>
+
+            </div>
+
+            <div>
+                <label for="cidade-da-pessoa">Sua Cidade:</label>
+                <select name="cidade-da-pessoa" id="">
+
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="minas-gerais">Minas Gerais</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="vida">Conte sobre a sua vida</label>
+                <textarea name="vida" rows="10" cols="15" placeholder="Estude na reprograma"></textarea>
+
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>
