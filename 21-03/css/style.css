@@ -47,4 +47,22 @@
     justify-content: space-evenly;
 }
 
+.grupo-campo {
+    display: flex;
+    justify-content: space-between;
+
+}
+.botoes {
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+}
+
+.btn--submit {
+    background-color: #a80b9be5;
+
+}
+.btn--submit:hover {
+    background-color: rgba(67, 4, 70, 0.87)
+}
 
